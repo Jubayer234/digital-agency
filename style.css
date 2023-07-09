@@ -64,8 +64,72 @@
     padding: 20px;
 
 }
+.icon{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.box{
+text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 50px ;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+}
+.service-description{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap:5px;
+    margin-top: 5px;
+
+}
+.second-two-box{
+display: flex;
+gap: 5px;
+margin-top: 5px;
+align-items: center;
+}
 .author-container{
     display: flex;
     gap: 20px;
     align-items: center;
+}
+.author-img{
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 35px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 30px;
+}
+.appoinment-container{
+    background-image: url(./asset/business.jpg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(222, 41, 41);
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+    border-right: 5px rgb(11, 11, 11);
+    color: white;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  border-right: 2px solid black;
+    
 }
